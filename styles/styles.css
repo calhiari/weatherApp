@@ -1,0 +1,27 @@
+body{
+	background-color: rgb(13, 77, 255);
+	text-align: center;
+	color: rgb(13, 255, 172);
+	font-family: 'Roboto', sans-serif;
+}
+
+a, #weatherWhite{
+	color: white;
+}
+
+.header{
+	font-size: 32px;
+}
+
+.icons{
+	font-size: 150px;
+	padding: 24px 0 24px 0;
+}
+
+.info{
+	font-size: 16px;
+}
+
+.about, .summary, .cityName{
+	font-size: 24px;
+}
