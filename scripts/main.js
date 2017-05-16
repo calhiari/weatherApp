@@ -19,7 +19,7 @@ $(document).ready(function()
 
 			var i = 0;
 			//converts the temperature on click to celsiu and back to farenheit
-			$(".weather").on("click", function()
+			$(".weather").on("click touch", function()
 			{
 				if (i % 2 == 0){
 					var celsiusTemp = (weatherObj.currently.apparentTemperature - 32) * 5 / 9;
